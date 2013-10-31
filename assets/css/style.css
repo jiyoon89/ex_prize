@@ -1,0 +1,226 @@
+html {scrollbar-arrow-color: #4b3515; scrollbar-base-color: white; scrollbar-Face-Color: white; scrollbar-Track-Color: #4b3515;}
+
+::-webkit-scrollbar {width: 11px; height: 17px; border: 3px solid #a89270; }
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {display: none; height: 10px; background: white;}
+::-webkit-scrollbar-track {background: #4b3515; -webkit-border-radius: 10px; border-radius:10px; -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,.2)}
+::-webkit-scrollbar-thumb {height: 50px; width: 50px; background: white; -webkit-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.1)}
+
+
+
+.hide{
+	display: none;
+}
+#container{
+	background:url("../img/main.jpg");
+	width: 810px;
+	height:1020px;
+	position: absolute;
+}
+
+.header{
+	 top: 0px;
+	left: 0px;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 51px;
+	z-index:10;
+}
+.inning{
+    font-size: 23px;
+
+    font-weight: bold;
+    color: #4b3515;
+    background: none;
+    border: 0;
+    width: 72px;
+}
+.header_text{
+    font-size: 23px;  font-weight: bold;  
+    color: #745f42;  background: none;  border: 0;  
+	
+}
+.inputWrapper{
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-left: 510px;
+	z-index: 10;
+}
+select{
+	background: #a89270;
+	border: 0;
+	color: white;
+	width:200px;
+	padding-left: 10px;
+}
+.selectedVal{
+	background-image: url("../img/selectOff.png");
+	width:200px;
+	height:30px;
+	cursor: pointer;
+}
+.selectedVal input{
+	margin-top: 2px;
+	margin-left: 17px;
+	border: 0;
+	background: none;
+	color: white;
+}
+
+.inningVal ul{
+	color: white;
+	list-style: none;
+	width: 142px;
+	padding: 0 0 0 7px;
+	/*background: #a89270;*/
+	margin-top: 0px;
+	color: white;
+	cursor: pointer;
+}
+
+#wrapper{
+	width: 200px;
+	top: 28px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 140px;
+	-webkit-border-radius: 0 0 8px 8px;/*테두리 둥글게*/	
+	border-radius: 0 0 8px 8px;/*테두리 둥글게*/	
+	background: #a89270;
+	position: absolute;
+	z-index: 10;
+}
+
+#scroller{
+	width: 172px;
+	z-index:1;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	height: 131px;
+	background: #a89270;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+/*main*/
+.main{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 325px;
+	margin-left: 50px;
+	width: 740px;
+	height: 580px;
+}
+.pic{
+    display: inline-block;
+    *display: inline;
+    *zoom:1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: 19px;
+    margin-bottom: 21px;
+    width: 218px;
+    height: 168px;
+    border: 1px solid #af9e88;
+}
+.main img{
+    position: absolute;
+	
+    width: 218px;
+    height: 168px;
+}
+
+#tag{
+	background: url('../img/tag.png');
+    
+	width: 212px;
+	display: inline;
+	height: 32px;
+	position: absolute;
+	margin-top: 137px;
+	cursor: pointer;
+}
+.main input{
+    width: 164px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: none;
+
+    border: 0;
+    color: white;
+    padding-left: 10px;
+    padding-top: 8px;
+    font-size: 13px;
+}
+/*link*/
+.link{
+    width: 272px;
+    height: 47px;
+    position: absolute;
+    top: 944px;
+    left: 270px;
+    cursor: pointer;
+}
+/*popup*/
+
+.pop{
+	background: url('../img/pop.jpg');
+	width:700px;
+	height: 596px;
+	position: relative;
+	top:0px;
+	*top:250px;
+	left:0px;
+	margin: 250px auto;
+	z-index:20;
+	display: block;
+	padding-top: 33px;
+}
+.popImg{
+	position: relative;
+	display: block;
+	margin: auto;
+	max-height:413px;
+	max-width: 634px;
+}
+.popClose{
+    width: 173px;
+	
+    height: 48px;
+    position: absolute;
+    top: 552px;
+    left: 264px;
+    cursor: pointer;
+}
+.popText{
+    width: 640px;
+
+    position: absolute;
+    top: 464px;
+    left: 30px;
+}
+.text1{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.text2{
+    text-align: center;
+    color: white;
+
+
+    top: 8px;
+    position: relative;
+}
+.text3{
+	text-align: center;
+	color:#a18b6a;
+	position: relative;
+	top: 11px;
+}
